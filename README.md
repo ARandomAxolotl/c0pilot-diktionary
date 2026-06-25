@@ -2,6 +2,10 @@
 
 yes, copilot but dumber
 
+## Scratch project link : 
+
+`https://scratch.mit.edu/projects/1334928928/`
+
 ## Controls
 
 - Green flag: regenerate
