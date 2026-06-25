@@ -28,9 +28,13 @@ Do:5
 Don't:5
 Doesn't:5
 Does:5
+/random good words
 Tell:5
 Hmm:5
 Interesting:5
+Hey:5
+Hi:5
+C0pilot++:7
 }
 
 / Basic pronoun starters
@@ -51,23 +55,25 @@ use:4
 love:5
 believe:3
 hate:2
-}
+have:5
 }
 
 he{
 He{
 She{
 she{
-it
+it{
 It{
 is:1
 likes:1
 can:1
 does:1
 doesn't:1
+has:1
 }
 
 / Greetings
+Hello{
 hello{
 there:6
 friend:4
@@ -75,6 +81,7 @@ how:7
 and:1
 }
 
+Hi{
 hi{
 there:7
 how:6
@@ -82,8 +89,8 @@ friend:6
 and:1
 }
 
-hay{
-:.1
+Hey{
+.:1
 }
 
 / Questions and pronouns
@@ -160,8 +167,19 @@ smol:1
 fast:1
 slow:1
 doing:1
+having:1
+roasting:1
+raining:1
+smart:1
+dumb:1
+stupid:1
+
 }
 
+having{
+has{
+have{
+need{
 with{
 your{
 message:1
@@ -316,6 +334,8 @@ and:1
 }
 
 / Bot Identity (c0pilot)
+C0pilot++{
+C0pilot{
 c0pilot{
 is:1
 can:1
@@ -333,7 +353,7 @@ learning:6
 learns{
 learn{
 learning{
-gooning:1
+/gooning:1
 nothing:1
 arch:1
 Akiyama Mizuki:1
@@ -514,29 +534,35 @@ mad:6
 / Sizes and speed
 big{
 is:1
-huge:6
+af:1
+like a giant:1
+huge:1
 }
 
 smol{
 small{
 is:1
-little:6
+af:1
+little:1
 }
 
 fast{
 is:1
-quick:7
+af:1
+quick:1
 }
 
 slow{
 is:1
-boring:3
+boring:1
+af:1
 }
 
 / Nature and space
 sun{
 is:1
-hot:5
+hot:1
+very:1
 }
 
 moon{
@@ -658,7 +684,9 @@ about:1
 }
 
 about{
-that:6
+that:1
+gooning:1
+Akiyama Mizuki:1
 }
 
 why{
@@ -904,6 +932,8 @@ Gentoo:1
 Ubuntu:1
 Mint:1
 Debian:1
+MacOS:1
+Windows:1
 }
 
 arch{
@@ -966,9 +996,13 @@ well:5
 }
 
 very{
-cool:5
+cool:1
 good:1
-fun:5
+fun:1
+fcking cold:1
+hot:1
+hot I can make eggs on the streets:1
+hot as HCMC:1
 }
 
 gooning{
@@ -1101,10 +1135,11 @@ from{
 }
 
 Ubuntu{
+snaps:1
+Windows{
 is:1
 good:1
 bad:1
-snaps:1
 bloat:1
 }
 
@@ -1112,6 +1147,7 @@ sing{
 singing{
 song{
 bakenohana ; "Minai de rikai dekinai deshou? Marude saite shimatta bake no hana Nani mo ienai kakikesenai Donna ni minikuku utsuru keshou":1
+化けの花; "見ないで 理解出来ないでしょう? まるで咲いてしまった 化けの花 なにも言えない かき消せない どんなに醜く映る化粧":1
 }
 
 programming language{
@@ -1121,4 +1157,21 @@ python:1
 c++:1
 c:1
 java:1
+}
+
+roasting{
+C0pilot:1
+Microsoft Copilot:1
+YOU:2
+}
+
+future{
+is:1
+are:1
+}
+
+MacOS{
+rich:1
+is:1
+with Apple iPhone:1
 }
