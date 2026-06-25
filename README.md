@@ -74,3 +74,49 @@ hello{
 good morning:5
 
 }
+
+## Known issues
+
+- This is a bigram model.
+
+- c0pilot means:
+
+    - "Microsoft Copilot" = stupid
+
+    - "0" = "0 guaranteed meaning"
+- c0pilot++ vocab parser has "bugs":
+
+   `This is a feature, not a bug`
+
+Example:
+
+word{
+
+word2{
+
+word1:67
+
+}
+
+This is valid.
+
+`word` and `word2` can both lead to `word1`.
+
+
+## Changelogs : 
+
+c0pilot 1.0 : existed and abandoned
+
+c0pilot 1.1 : forked to c0pilot++ 1.0
+
+c0pilot++ 1.0 : remake parser, no bug fixed as those are `features`
+
+c0pilot++ 1.1 : added LOTS of vocab
+
+c0pilot++ 1.2 : using the bugs, made the vocab file much smaller and efficient
+
+c0pilot++ 1.3 : added bakanohana so it can sing
+
+c0pilot 1.2 : minor updates to fit the new system
+
+c0pilot++ 1.4 and c0pilot 1.3 : added vocab files to github

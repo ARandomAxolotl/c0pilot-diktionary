@@ -28,6 +28,9 @@ Do:5
 Don't:5
 Doesn't:5
 Does:5
+Tell:5
+Hmm:5
+Interesting:5
 }
 
 / Basic pronoun starters
@@ -144,47 +147,70 @@ cool:1
 learning:1
 from:1
 singing:1
+red:1
+blue:1
+green:1
+yellow:1
+happy:1
+sad:1
+angry:1
+big:1
+small:1
+smol:1
+fast:1
+slow:1
+doing:1
 }
 
+with{
+your{
+message:1
+question:1
+my{
+name:1
 The{
 the{
 a{
-world:6
+world:1
 best:3
 future:4
-computer:3
+computer:1
 is:1
 thing:1
 code:5
-project:5
+project:1
 thing:1
-person:4
-robot:5
-computer:4
+person:1
+robot:1
+computer:1
 very:1
 good:1
-cool:5
+cool:1
 joke:1
 linux distro:1
 tool:1
 pjsk's Akiyama Mizuki plushie:1
 song:1
-}
-
-/ Possession and nouns
-my{
-name:7
-friend:3
-frend:3
-code:4
-}
-
-your{
-name:7
-question:6
-message:3
-project:7
-code:7
+agorithm:1
+cat:1
+programming language:1
+logic:1
+music:1
+movie:1
+book:1
+food:1
+pizza:1
+sun:1
+moon:1
+star:1
+space:1
+earth:1
+water:1
+fire:1
+school:1
+friend:1
+teacher:1
+family:1
 }
 
 name{
@@ -214,22 +240,15 @@ sing:5
 
 help{
 helps{
-he:1
-she:1
+him:1
+her:1
 you:1
 with:1
 .:1
 it:1
 me:1
-}
-
-with{
-that:7
-code:7
-problems:6
-your:5
-project:7
-question:7
+they:1
+us:1
 }
 
 / Tech and Scratch concepts
@@ -241,9 +260,10 @@ and:1
 int:1
 clean:4
 nice:4
-bad:6
+bad:4
 problems:4
 fun:5
+scratch:5
 }
 
 scratch{
@@ -482,7 +502,7 @@ good:1
 }
 
 sad{
-is:1
+.:1
 bad:4
 }
 
@@ -497,6 +517,7 @@ is:1
 huge:6
 }
 
+smol{
 small{
 is:1
 little:6
@@ -612,11 +633,11 @@ that:3
 and:1
 }
 
-hmm{
+Hmm{
 i:2
 }
 
-interesting{
+Interesting{
 idea:5
 }
 
@@ -624,7 +645,7 @@ nice{
 idea:5
 }
 
-tell{
+Tell{
 me:7
 }
 
@@ -665,6 +686,8 @@ java:1
 developer{
 is:1
 writes:5
+stressed:5
+use:5
 }
 
 
@@ -706,18 +729,19 @@ is:1
 
 app{
 is:1
-is software:1
 }
 
 bug{
-is problem:6
-is fix:4
+problem:6
+good:6
+feature:6
+.:1
 }
 
 fix{
-bug:60
-code:70
-problem:60
+bug:6
+code:7
+problem:6
 }
 
 error{
@@ -725,16 +749,11 @@ is:1
 bug:6
 }
 
-debug{
-code:7
-fix:6
-}
-
+asm{
+c++{
+c{
+java{
 python{
-is:1
-code:6
-}
-
 javascript{
 is:1
 code:6
@@ -800,7 +819,7 @@ it:1
 is:1
 can:1
 also:5
-i:4
+I:4
 }
 
 also{
@@ -811,21 +830,22 @@ helps:4
 
 fun{
 and:1
+.:1
 }
 
 / Added vocabulary expansions
 weather{
-is:1
+is:4
 nice:4
 }
 
 to{
-make:7
+make:5
 code:6
 learn:5
 the:1
-build:6
-fix:7
+build:5
+fix:5
 Akiyama Mizuki:1
 }
 
@@ -915,9 +935,16 @@ everything:1
 }
 
 / USER-DEF
-Does{
+
 Do{
 Don't{
+I:1
+you:1
+they:1
+we:1
+}
+
+Does{
 Doesn't{
 he:1
 she:1
@@ -1085,4 +1112,13 @@ sing{
 singing{
 song{
 bakenohana ; "Minai de rikai dekinai deshou? Marude saite shimatta bake no hana Nani mo ienai kakikesenai Donna ni minikuku utsuru keshou":1
+}
+
+programming language{
+scratch:1
+javascript:1
+python:1
+c++:1
+c:1
+java:1
 }
