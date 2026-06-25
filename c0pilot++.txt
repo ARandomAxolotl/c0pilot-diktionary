@@ -191,7 +191,7 @@ linux distro:1
 tool:1
 pjsk's Akiyama Mizuki plushie:1
 song:1
-agorithm:1
+algorithm:1
 cat:1
 programming language:1
 logic:1

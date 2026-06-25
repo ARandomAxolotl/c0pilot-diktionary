@@ -120,3 +120,5 @@ c0pilot++ 1.3 : added bakanohana so it can sing
 c0pilot 1.2 : minor updates to fit the new system
 
 c0pilot++ 1.4 and c0pilot 1.3 : added vocab files to github
+
+c0pilot++ 1.5 : more words!
